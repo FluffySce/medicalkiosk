@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
 import AssistantShell from './components/AssistantShell/AssistantShell.jsx';
-import { AuthProvider } from './doctor/AuthContext.jsx';
-import DoctorLayout from './doctor/DoctorLayout.jsx';
-import LoginPage from './doctor/LoginPage.jsx';
-import ProfilePage from './doctor/ProfilePage.jsx';
-import ProtectedRoute from './doctor/ProtectedRoute.jsx';
-import SlipPage from './doctor/SlipPage.jsx';
-import TokenListPage from './doctor/TokenListPage.jsx';
-import VisitPage from './doctor/VisitPage.jsx';
+import { AuthProvider } from './dashboard/AuthContext.jsx';
+import DoctorLayout from './dashboard/DoctorLayout.jsx';
+import LoginPage from './dashboard/LoginPage.jsx';
+import ProfilePage from './dashboard/ProfilePage.jsx';
+import ProtectedRoute from './dashboard/ProtectedRoute.jsx';
+import SlipPage from './dashboard/SlipPage.jsx';
+import TokenListPage from './dashboard/TokenListPage.jsx';
+import VisitPage from './dashboard/VisitPage.jsx';
 
 export default function App() {
   return (
